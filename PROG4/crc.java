@@ -1,3 +1,5 @@
+//Develop a program for error detecting code using CRC-CCITT (16- bits).
+
 import java.util.*;
 
 class crcpgm {

@@ -1,3 +1,5 @@
+//Develop a program to find the shortest path between vertices using the Bellman-Ford
+//and path Vector routing algorithm.
 import java.util.*;
 
 class bellman{
@@ -22,6 +24,7 @@ class bellman{
 			for(j=0; j<n; j++)
 				g[i][j]=in.nextInt();
 		System.out.println("Enter the distance:");
+
 		for(i=0;i<n;i++){
 			System.out.println("The distance between node "+ch[i]+" and");
 			for(j=0;j<n;j++){
@@ -34,6 +37,7 @@ class bellman{
 				rt[i][j].phop=ch[i];
 			}
 		}
+		
 		int[] ad=new int[n];
 		int adc= 0,choice;
 		do{
